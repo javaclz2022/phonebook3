@@ -30,13 +30,14 @@
 			<td>${personVo.company}</td>
 		</tr>
 		<tr>
-			<td>[수정폼]</td>
+			<td><a href="./updateForm?no=${personVo.personId}">[수정폼]</a></td>
 			<td><a href="./delete?no=${personVo.personId}">[삭제]</a></td>
 		</tr>
 	</table>
 	<br>
 	</c:forEach>
 	
+	<a href="./writeForm">전화번호등록</a>
 	
  </body>
 </html>
